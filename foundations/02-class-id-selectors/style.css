@@ -1,0 +1,23 @@
+ 
+
+.odd {
+  background-color: pink;
+  font-family:Verdana, "DejaVu Sans",sans-serif;  
+}
+
+.third {
+  font-size:24px;
+}
+
+#second_id{
+    font-size:36px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+}
+
+#fourth_id{
+  background-color: palegreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}

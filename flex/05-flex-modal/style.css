@@ -15,11 +15,31 @@ body {
   justify-content: center;
 }
 
+/* I made changes to this modal (the white container) */
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  display:flex;
+  flex-shrink:0;
+  align-items: flex-start;
+  justify-content: space-between;  
+}
+
+/* I added a main container to get the main portion (the middle part) */
+.main-container {
+  display:flex;
+  flex-flow: column wrap;
+  max-width: 380px;
+  align-items:flex-start;
+  gap:15px;
+}
+
+.header {
+  font-weight: bold;
+  font-size:larger;
 }
 
 .icon {
